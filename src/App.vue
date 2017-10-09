@@ -8,14 +8,17 @@
 </style>
 
 <template>
-  <client-tab></client-tab>
+  <index-tab></index-tab>
+  <!-- <client-tab></client-tab> -->
 </template>
 
 <script>
+import IndexTab from '@/pages/IndexTab'
 import ClientTab from '@/pages/ClientTab'
 export default {
   name: 'App',
   components:{
+    IndexTab,
     ClientTab
   }
 }

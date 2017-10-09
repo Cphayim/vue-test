@@ -14,10 +14,9 @@
 
     <!-- 内容容器 -->
     <div class="g-content up">
-      <!-- <customer-list></customer-list> -->
-      <index-tab></index-tab>
+      <customer-list></customer-list>
     </div>
-    <!-- /内容容器 -->
+    <!-- 内容容器 -->
 
     <!-- 列表 -->
 
@@ -43,22 +42,15 @@
 </template>
 
 <script>
-import Vue from 'vue'
-import { Header, Tabbar, TabItem, Search } from 'mint-ui'
-import IndexTab from '@/pages/IndexTab'
-Vue.component(Header.name, Header)
-Vue.component(Header.name, Search)
-Vue.component(Tabbar.name, Tabbar)
-Vue.component(TabItem.name, TabItem)
-
+import CustomerList from '@/components/CustomerList'
 export default {
   name: 'ClientTab',
   components:{
-    IndexTab
+    CustomerList
   },
   data() {
     return {
-      title: '首页'
+      title: '本月新增潜客'
     }
   }
 }
