@@ -230,7 +230,7 @@
 </style>
 
 <template>
-  <div class="m-app-index">
+  <div class="m-index-tab">
     <div class="item1">
       <div class="item1_l">
         <span>潜客</span>
@@ -304,7 +304,7 @@
  * 客户列表组件
  */
 export default {
-  name: 'AppIndex'
+  name: 'IndexTab'
 }
 </script>
 

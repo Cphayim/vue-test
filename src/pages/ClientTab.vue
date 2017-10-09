@@ -15,7 +15,7 @@
     <!-- 内容容器 -->
     <div class="g-content up">
       <!-- <customer-list></customer-list> -->
-      <app-index></app-index>
+      <index-tab></index-tab>
     </div>
     <!-- /内容容器 -->
 
@@ -45,7 +45,7 @@
 <script>
 import Vue from 'vue'
 import { Header, Tabbar, TabItem, Search } from 'mint-ui'
-import AppIndex from '@/components/AppIndex'
+import IndexTab from '@/pages/IndexTab'
 Vue.component(Header.name, Header)
 Vue.component(Header.name, Search)
 Vue.component(Tabbar.name, Tabbar)
@@ -54,7 +54,7 @@ Vue.component(TabItem.name, TabItem)
 export default {
   name: 'ClientTab',
   components:{
-    AppIndex
+    IndexTab
   },
   data() {
     return {
