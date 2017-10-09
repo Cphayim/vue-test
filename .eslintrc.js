@@ -37,7 +37,7 @@ module.exports = {
     // 禁止多余的分号
     'no-extra-semi': 2,
     // 使用 unix 的换行风格 \n，而不是 windows 的 \r\n
-    'linebreak-style': ['error', 'unix'],
+    // 'linebreak-style': ['error', 'unix'],
     // 统一缩进使用2个空格
     'indent': [1, 2],
     // 指定数组的元素之间要以空格隔开(,后面)， never参数：[ 之前和 ] 之后不能带空格，always参数：[ 之前和 ] 之后必须带空格
